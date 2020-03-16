@@ -1,0 +1,64 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #789ace;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.container {
+  background-color: white;
+  margin: auto auto;
+  width: 1000px;
+  height: 300px;
+  border-radius: 5px;
+  padding: 70px 50px;
+}
+
+.device {
+  float: left;
+  width: 300px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+}
+
+.laptop {
+  float: left;
+  width: 300px;
+  text-align: center;
+}
+
+.monitor {
+  float: right;
+  width: 300px;
+  text-align: center;
+}
+
+.title {
+  color: #5762b5;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.desc {
+  font-weight: 500;
+  color: #b0aca8;
+}
+
+.price {
+  color: #5762b5;
+}
+
+.price .number {
+  font-weight: 1000;
+  font-size: larger;
+  line-height: normal;
+}
+
+.clear-both {
+  clear: both;
+}
