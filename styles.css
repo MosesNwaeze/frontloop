@@ -46,7 +46,7 @@ body {
 
 .desc {
   font-weight: 500;
-  color: #b0aca8;
+  color: #27292B;
 }
 
 .price {
@@ -57,6 +57,12 @@ body {
   font-weight: 1000;
   font-size: larger;
   line-height: normal;
+}
+
+.device:hover, .laptop:hover, .monitor:hover {
+  background-color: #ACA8A4;
+  cursor: pointer;
+  
 }
 
 .clear-both {
