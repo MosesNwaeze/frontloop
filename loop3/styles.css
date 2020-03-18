@@ -1,0 +1,80 @@
+body {
+    background-color: #16A085;
+    font-family: Roboto, sans-serif;
+    font-size: smaller;
+}
+
+.main-content {
+    background-color: white;
+    margin: 100px auto;
+    width: 370px;
+    height: 400px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    z-index: 7;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.user button {
+    padding: 10px;
+    border-radius: 50%;
+    border: solid 1px #EDEDED;
+ }
+
+.user button:hover {
+    cursor: pointer;
+}
+
+.user {
+    margin-top: 5px;
+}
+
+span img {
+   height: 15px;
+   width: 15px;
+}
+
+.bike img {
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 300px;
+    left: 460px;
+    z-index: 2;
+}
+
+.message {
+    margin-top: 5px;
+}
+
+.product h1 {
+    margin-bottom: 0;
+    font-size: large;
+    font-weight: 500;
+}
+
+.title {
+    color: #6C6B6B;
+    font-size: small;
+}
+
+.price {
+    font-size: medium;
+}
+
+.sum {
+    color: #6C6B6B;
+}
