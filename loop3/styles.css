@@ -1,80 +1,98 @@
 body {
-    background-color: #16A085;
-    font-family: Roboto, sans-serif;
-    font-size: smaller;
+  background-color: #16a085;
+  font-family: Roboto, sans-serif;
+  font-size: smaller;
 }
 
 .main-content {
-    background-color: white;
-    margin: 100px auto;
-    width: 370px;
-    height: 400px;
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 5px;
-    z-index: 7;
+  background-color: white;
+  margin: 100px auto;
+  width: 370px;
+  height: 400px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
+  z-index: 1;
 }
 
 .float-left {
-    float: left;
+  float: left;
 }
 
 .float-right {
-    float: right;
+  float: right;
 }
 
 .clear-both {
-    clear: both;
+  clear: both;
 }
 
 .user button {
-    padding: 10px;
-    border-radius: 50%;
-    border: solid 1px #EDEDED;
- }
+  padding: 5px;
+  border-radius: 50%;
+  border: solid 1.9px #ededed;
+  background-color: white;
+  
+  outline: none;
+}
 
-.user button:hover {
-    cursor: pointer;
+.user button:hover,
+.user button:active {
+  cursor: pointer;
+  -webkit-box-shadow: -1px 1px 3px 5px #ededed;
+  -moz-box-shadow: -1px 1px 3px 5px #ededed;
+  box-shadow: -1px 1px 3px 5px #ededed;
 }
 
 .user {
-    margin-top: 5px;
+  margin-top: 13px;
 }
 
-span img {
-   height: 15px;
-   width: 15px;
+.user button img {
+  width: 20px;
+  height: 20px;
 }
 
 .bike img {
-    width: 450px;
-    height: 300px;
-    position: absolute;
-    top: 300px;
-    left: 460px;
-    z-index: 2;
+  width: 450px;
+  height: 300px;
+  position: absolute;
+  top: 280px;
+  left: 385px;
+  z-index: 0;
 }
 
 .message {
-    margin-top: 5px;
+  margin-top: 5px;
+  color: #aaadb6;
+  font-size: smaller;
 }
 
 .product h1 {
-    margin-bottom: 0;
-    font-size: large;
-    font-weight: 500;
+  margin-bottom: 0;
+  font-size: large;
+  font-weight: 900;
 }
 
 .title {
-    color: #6C6B6B;
-    font-size: small;
+  color: #6c6b6b;
+  font-size: small;
 }
 
 .price {
-    font-size: medium;
+  font-size: medium;
 }
 
 .sum {
-    color: #6C6B6B;
+  color: #6c6b6b;
+}
+
+.wrapper {
+  margin: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #16a085;
+  position: absolute;
+  top: 521px;
 }
