@@ -1,64 +1,125 @@
 body {
-    background-color: white;
     padding: auto auto;
     font-family: Roboto, sans-serif;
-}
-
-.container {
-    margin: 40px auto;
-    background-image: url('/img/background.jpg');
-    background-repeat: no-repeat;
-    width: 1200px;
-    height: 500px;
-    padding-top: 60px
+    background-image: url("/img/background.jpg");
 }
 
 .main-content {
-    margin: 5px auto;
+    margin: 80px auto;
+    width: 400px;
     background-color: white;
-    
-    width: 350px;
+    border-radius: 5px;
+    padding: 0;
+    height: 350px;
 }
 
 .header {
     text-align: center;
-    height: 120px;
-    border: solid 1px black;
+    padding-top: 20px;
+    height: 100px;
+}
+
+.header h2 {
+    text-transform: uppercase;
+    margin-bottom: 31px;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.card hr {
+    margin: 0;
+   
+}
+
+.header hr {
     
 }
 
-.title {
+.name h3, direct h3 {
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: medium;
+    
 }
 
-.h-r{
-   margin-bottom: 100px;
+.name h3 {
+    margin-top: 20px;
+}
+
+
+.card:hover {
+    background-color: darkgray;
+    cursor: pointer;
 }
 
 .card {
-    padding: 0;
     height: 60px;
-    border: solid yellow 1px;
+    
 }
 
-.next {
-    height: 50px;
+.next button:hover {
+    cursor: pointer;
 }
+
 .card img {
     width: 50px;
     height: 50px;
     margin-right: 20px;
-    border: solid black 1px;
-    margin-left: 15px;
-}
-
-.card-name {
-    text-transform: uppercase;
-    border: solid pink 1px;
+    margin-left: 30px;
+    margin-top: 4px;
 }
 
 .next {
-    text-align: center;
+    background-color: blue; 
+    padding: 0px;
+    width: inherit;
+    margin: 0;
+    height: 52px;
+    border-radius: 5px;
+}
+
+.next button {
+    width: 100%;
+    color: white;
     background-color: blue;
+    border: 0;
+    height: 100%;
+}
+
+.next button img {
+    width: 15px;
+    height: 15px;
+    padding: 0
+}
+
+.check img {
+   width: 20px;
+   height: 20px;
+   margin-top: 20px;
+}
+
+.float-right {
+    float: right;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.dot:first-child {
+    background-color: rgb(58, 57, 57);
+}
+
+#mastercard, #maestro {
+   margin-top: -1px;
 }

@@ -11,28 +11,52 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="main-content">
-      <div class="header">
-        <p></p>
-        <h1 class="title">payment method</h1>
-        <hr/>
+  <div class="main-content">
+    <div class="header">
+      <div id="dot">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
       </div>
-      <div class="card">
-        <img src="/img/visa.svg"/> <span class="card-name">Visa</span>
-        <hr/>
+      <h2>payment method</h2>
+      <hr/>
+    </div>
+    <div class="card">
+      <div class="image float-left">
+        <img src="/img/visa.svg" />
       </div>
-      <div class="card">
-          <img src="/img/mastercard.svg"/> <span class="card-name">mastercard</span>
-          <hr class="h-r"/>
+      <div class="name float-left">
+        <h3>visa</h3>
       </div>
-      <div class="card">
-          <img src="/img/maestro.svg"/> <span class="card-name">maestro</span>
-          <hr/>
+      <div class="clear-both"></div>
+      <hr/>
+    </div>
+    <div class="card" id="mastercard">
+      <div class="image float-left">
+        <img src="/img/mastercard.svg" />
       </div>
-      <div class="next">
-          <span>Next step</span><img src="/img/arrow.svg"/>
+      <div class="name float-left">
+        <h3>mastercard</h3>
       </div>
+      <div class="check float-right">
+        <img src="/img/check.svg" />
+      </div>
+      <div class="clear-both"></div>
+      <hr/>
+    </div>
+    <div class="card" id="maestro">
+      <div class="image float-left">
+        <img src="/img/maestro.svg" />
+      </div>
+      <div class="name float-left">
+        <h3>maestro</h3>
+      </div>
+      <div class="clear-both"></div>
+    </div>
+    <div class="next">
+      <button>NEXT STEP
+        <img src="/img/arrow.svg" />
+      </button>
     </div>
   </div>
 </body>
