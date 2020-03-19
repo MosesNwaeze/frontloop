@@ -78,18 +78,19 @@ body {
 .next {
     background-color: blue; 
     padding: 0px;
-    width: inherit;
+    width: 100%;
     margin: 0;
     height: 52px;
-    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .next button {
     width: 100%;
     color: white;
     background-color: blue;
-    border: 0;
     height: 100%;
+    outline:none;
 }
 
 .next button img {
@@ -121,5 +122,5 @@ body {
 }
 
 #mastercard, #maestro {
-   margin-top: -1px;
+   margin-top: 0px;
 }
