@@ -1,0 +1,69 @@
+body {
+    background-color: #A6BFD4;
+    font-family: Roboto, sans-serif;
+}
+
+.main-content {
+    margin: 90px auto;
+    width: 370px;
+    height: 450px;
+    background-color: white
+}
+
+.header {
+    height: 50px;
+    background-color: #6A96D8;
+    color: white;
+    font-size: small;
+    text-align: center;
+    font-weight: 500;
+    padding: 0;
+}
+
+.body {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.user ul {
+    margin-left: 0;
+}
+
+.close button {
+    border: none;
+    outline: none;
+    background-color: #6A96D8;
+}
+
+.close {
+    margin-right: 20px;
+    margin-top: 17px;
+}
+
+.close img {
+    width: 17px;
+    height: 17px;
+}
+
+.today hr {
+    width: 135px;
+    border: solid 0.3px #E3E3E3;
+}
+
+
+
+.float-left {
+    float: left;
+}
+
+
+
+
+.float-right {
+    float: right;
+}
+
+.clear-both {
+    clear: both;
+}
