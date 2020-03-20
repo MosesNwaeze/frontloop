@@ -35,11 +35,18 @@ body {
     border: none;
     outline: none;
     background-color: #6A96D8;
+    color: gainsboro;
+   
+}
+
+.close button:hover {
+    cursor: pointer;
+    background: rgba(red, green, blue, 0);
 }
 
 .close {
     margin-right: 20px;
-    margin-top: 17px;
+    margin-top: 15px;
 }
 
 .close img {
@@ -48,10 +55,25 @@ body {
 }
 
 .today hr {
-    width: 100px;
+    width: 132px;
     border: solid 0.3px #E3E3E3;
 }
 
+.today .right {
+    margin: 0 ;
+    margin-top: 8px;
+}
+
+.today span {
+    color: #E3E3E3;
+    margin: 0 5px;
+}
+
+.today .left {
+    margin-top: 8px;
+    
+   
+}
 
 .float-left {
     float: left;
@@ -147,7 +169,7 @@ body {
   
  
   .talk{
-    padding: 0.5em;
+    padding: 1.5em;
     text-align: left;
     line-height: 1.3em;
     font-size: small;
@@ -162,6 +184,7 @@ body {
   .block {
       background: #FFC2C1;
       margin: 15px 0;
+      border-radius: 3px;
   }
 
  
@@ -182,6 +205,11 @@ body {
       text-transform: uppercase;
       font-size: small;
       font-weight: 800;
+      outline: none;
+  }
+
+  form button:hover {
+      cursor: pointer;
   }
 
   .hr hr {
@@ -189,3 +217,4 @@ body {
     margin-bottom: 5px 0;
   }
   
+ 
