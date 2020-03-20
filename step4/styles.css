@@ -5,9 +5,10 @@ body {
 
 .main-content {
     margin: 90px auto;
-    width: 370px;
-    height: 450px;
-    background-color: white
+    width: 350px;
+    height: 520px; 
+    background-color: white;
+    font-size: small;
 }
 
 .header {
@@ -47,23 +48,144 @@ body {
 }
 
 .today hr {
-    width: 135px;
+    width: 100px;
     border: solid 0.3px #E3E3E3;
 }
 
 
-
 .float-left {
     float: left;
+    margin-left: 3px;
+    text-align: left;
 }
-
-
 
 
 .float-right {
     float: right;
+    margin-right: 2px;
+    text-align: right;
 }
 
 .clear-both {
     clear: both;
 }
+
+.message {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: auto;
+  padding: 0;
+}
+
+.float-left .time, .float-right .time {
+    margin-bottom: 3px;
+    color: #B9BCC4;
+    font-size: smaller;
+}
+ 
+.float-left .message {
+    background-color: #E6EDF6;
+    margin-left: 10px;
+}
+
+.float-right .message {
+    background-color: #F2F2F2;
+    margin-right: 10px;
+}
+  .tri-right.border.left-top:before {
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+    left: -10px;
+      right: auto;
+    top: -8px;
+      bottom: auto;
+      border: 32px solid;
+      border-color: #E6EDF6 transparent transparent transparent;
+  }
+  .tri-right.left-top:after{
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+    left: -10px;
+      right: auto;
+    top: 0px;
+      bottom: auto;
+      border: 22px solid;
+      border-color: #E6EDF6 transparent transparent transparent;
+  }
+  
+   
+  .tri-right.border.right-top:before {
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+    left: auto;
+      right: -10px;
+    top: -8px;
+      bottom: auto;
+      border: 32px solid;
+      border-color: #F2F2F2 transparent transparent transparent;
+  }
+  .tri-right.right-top:after{
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+    left: auto;
+      right: -10px;
+    top: 0px;
+      bottom: auto;
+      border: 20px solid;
+      border-color: #F2F2F2 transparent transparent transparent;
+      
+  }
+  
+ 
+  .talk{
+    padding: 0.5em;
+    text-align: left;
+    line-height: 1.3em;
+    font-size: small;
+    font-weight: 500;
+  }
+  .talk p{
+    
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }
+
+  .block {
+      background: #FFC2C1;
+      margin: 15px 0;
+  }
+
+ 
+
+  form input {
+      border: none;
+      width: 70%;
+      outline: none;
+      font-size: small;
+      font-weight: 600; 
+  }
+
+  
+  form button {
+      border: none;
+      background: white;
+      color: #6A96D9;
+      text-transform: uppercase;
+      font-size: small;
+      font-weight: 800;
+  }
+
+  .hr hr {
+    border: solid 0.3px #E3E3E3;
+    margin-bottom: 5px 0;
+  }
+  
