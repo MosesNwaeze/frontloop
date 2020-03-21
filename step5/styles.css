@@ -1,0 +1,99 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-image: url("/img/background.jpg");
+    background-size: cover;
+    background-origin: content-box;
+    background-position-y: center;
+}
+
+.main-content {
+    margin: 90px auto;
+    width: 280px;
+    height: 300px;
+    background-color: white;
+    padding: 35px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.title {
+    margin-bottom: 0;
+    color: #3B8ACF;
+    font-weight: 900;
+  
+}
+
+.sub {
+    margin-top: 0;
+    font-size: x-small;
+    color: #A7AAAC;
+    font-weight: 200;
+}
+
+.dash {
+    margin: 0 20px;
+    color: #D3E6F4;
+    
+}
+
+.dash h1 {
+    height: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.flight, .gate, .seat {
+    margin-right: 30px;
+}
+
+.det{
+    margin-bottom: 0;
+    margin-top: 40px;
+    font-size: x-small;
+    font-weight: 700;
+    color: #A7AAAC;
+    text-align: left;
+}
+
+.num{
+    margin-top: 3px;
+    font-size: smaller;
+    font-weight: 700;
+    text-align: left;
+}
+
+.pass, .class, .depart {
+    padding: 0;
+
+}
+
+.pass .det, .class .det, .depart .det {
+    margin: 0;
+}
+
+.barcode img {
+    width: 150px;
+    height: 124px;
+}
+
+.info {
+    margin-right: 33px;
+}
+
+.fra {
+    margin-right: 30px;
+}
