@@ -1,0 +1,79 @@
+body {
+    font-family: Roboto, sans-serif;
+    background: #F2CE97;
+}
+
+.main-container {
+    width: 900px;
+    height: 500px;
+    margin: 70px auto;
+   
+}
+
+.title {
+    width: 40%;
+    height: 100%;
+    background: #484956;
+}
+
+.details {
+    width: 60%;
+    height: 100%;
+    background: white;
+}
+
+.title h1,.title h2,.title hr {
+    margin-left: 40px;
+}
+
+.title h1 {
+    margin-bottom: 0;
+    margin-top: 50px; 
+    color: white;
+    font-weight: 500;
+}
+
+.title h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 200;
+}
+
+.title hr {
+    margin-top: 0;
+    width: 15%;
+    border:solid 2px #E37B62;
+    
+   
+
+}
+
+.user {
+    margin-top: 270px;
+    margin-left: 40px;
+}
+
+.user img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px 0 #32333C, 0 6px 20px 0 #32333C;
+}
+
+.user h3 {
+    color: white;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear-both {
+    clear: both;
+}

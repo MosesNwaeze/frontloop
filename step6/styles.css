@@ -83,7 +83,7 @@ body {
     cursor: pointer;
     -mos-box-shadow: 0 4px 2px -2px gray;
     -webkit-box-shadow: 0 4px 2px -2px gray;
-    box-shadow: 0 4px 2px -2px gray;
+    box-shadow: 0 10px 2px -2px gray;
 }
 
 .login img {
