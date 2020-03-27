@@ -22,6 +22,21 @@ body {
     background: white;
 }
 
+.details p {
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 2em;
+}
+
+.details p:first-child {
+    margin-top: 50px;
+}
+
+.details p:first-child::first-letter {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
 .title h1,.title h2,.title hr {
     margin-left: 40px;
 }
@@ -44,21 +59,40 @@ body {
     margin-top: 0;
     width: 15%;
     border:solid 2px #E37B62;
-    
-   
+}
 
+.status {
+    margin-top: -15px;
+    padding: 0;
+    margin-bottom: 80px;
+    padding-left: 6%; 
+    width: 100%;
+    text-align: center;
+}
+
+.comment {
+    margin-right: 5px;
+}
+
+.date, .action {
+    margin: 20px, auto;
+}
+
+.date {
+    font-weight: 200;
+    font-size: medium;
+    border: solid 1px black;
 }
 
 .user {
     margin-top: 270px;
-    margin-left: 40px;
 }
 
 .user img {
     border-radius: 50%;
     height: 60px;
     width: 60px;
-    margin-right: 10px;
+    margin-right: 5px;
     box-shadow: 0 4px 8px 0 #32333C, 0 6px 20px 0 #32333C;
 }
 
