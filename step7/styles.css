@@ -1,113 +1,149 @@
 body {
-    font-family: Roboto, sans-serif;
-    background: #F2CE97;
+  font-family: Roboto, sans-serif;
+  background: #f2ce97;
 }
 
 .main-container {
-    width: 900px;
-    height: 500px;
-    margin: 70px auto;
-   
+  width: 900px;
+  height: 500px;
+  margin: 70px auto;
 }
 
 .title {
-    width: 40%;
-    height: 100%;
-    background: #484956;
+  width: 40%;
+  height: 100%;
+  background: #484956;
 }
 
 .details {
-    width: 60%;
-    height: 100%;
-    background: white;
+  width: 60%;
+  height: 100%;
+  background: white;
 }
 
 .details p {
-    margin-left: 40px;
-    margin-right: 40px;
-    line-height: 2em;
+  margin-left: 40px;
+  margin-right: 40px;
+  line-height: 2em;
 }
 
 .details p:first-child {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .details p:first-child::first-letter {
-    font-weight: 900;
-    font-size: xx-large;
+  font-weight: 900;
+  font-size: xx-large;
 }
 
-.title h1,.title h2,.title hr {
-    margin-left: 40px;
+.title h1,
+.title h2,
+.title hr {
+  margin-left: 40px;
 }
 
 .title h1 {
-    margin-bottom: 0;
-    margin-top: 50px; 
-    color: white;
-    font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 50px;
+  color: white;
+  font-weight: 500;
 }
 
 .title h2 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    color: white;
-    font-weight: 200;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 200;
 }
 
 .title hr {
-    margin-top: 0;
-    width: 15%;
-    border:solid 2px #E37B62;
+  margin-top: 0;
+  width: 15%;
+  border: solid 2px #E37B62;
 }
 
 .status {
-    margin-top: -15px;
-    padding: 0;
-    margin-bottom: 80px;
-    padding-left: 6%; 
-    width: 100%;
-    text-align: center;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  margin-left: 1px;
+  padding-left: 6%;
+  width: 94%;
+  text-align: center;
+  box-shadow: 0 -8px 10px 0 #F7F7F7;
 }
 
 .comment {
-    margin-right: 5px;
-}
-
-.date, .action {
-    margin: 20px, auto;
+  margin-right: 5px;
 }
 
 .date {
-    font-weight: 200;
-    font-size: medium;
-    border: solid 1px black;
+  margin-top: 10px;
+}
+
+.date h1 {
+  font-weight: 400;
+  font-size: medium;
+  color: #939393;
+}
+
+.date h1 span {
+  color: black;
+  font-weight: 800;
+}
+
+.action {
+  margin-right: 50px;
+  padding: 0;
+}
+
+.action ul {
+  display: inline-block;
+  list-style: none;
+}
+
+.num {
+  color: #c0bcba;
+  margin-right: 15px;
+  font-size: medium;
+  font-weight: 100;
+  display: inline;
+}
+
+.action ul li {
+  display: inline;
+}
+
+.action h3 img {
+  width: 15px;
+  height: 15x;
+  margin-right: 7px;
 }
 
 .user {
-    margin-top: 270px;
+  margin-top: 270px;
+  margin-left: 40px;
 }
 
 .user img {
-    border-radius: 50%;
-    height: 60px;
-    width: 60px;
-    margin-right: 5px;
-    box-shadow: 0 4px 8px 0 #32333C, 0 6px 20px 0 #32333C;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin-right: 5px;
+  box-shadow: 0 4px 8px 0 #32333c, 0 6px 20px 0 #32333c;
 }
 
 .user h3 {
-    color: white;
+  color: white;
 }
 
 .float-left {
-    float: left;
+  float: left;
 }
 
 .float-right {
-    float: right;
+  float: right;
 }
 
 .clear-both {
-    clear: both;
+  clear: both;
 }

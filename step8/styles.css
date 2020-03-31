@@ -1,0 +1,162 @@
+body {
+  font-family: Roboto, sans-serif, Playfair + Display;
+  background: #f8ebe9;
+}
+
+.main-container {
+  margin: 30px auto;
+  height: 500px;
+  width: 800px;
+}
+
+.bg {
+  height: 100%;
+  width: 35%;
+  background-image: url("/img/background.jpg");
+  background-size: cover;
+}
+
+.bg h1 {
+  margin-left: 30px;
+  font-size:  x-small;
+  margin-top: 30px;
+  font-weight: 900;
+  color: #969696;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 50;
+  line-height: 1.9em;
+  font-stretch: ultra-condensed;
+  
+}
+
+.title h1 {
+  margin-bottom: 0;
+  font-weight: 100;
+}
+
+.title h1 span {
+  width: 400px;
+}
+
+.sub h3 {
+    font-weight: 100;
+    font-size: medium;
+}
+
+.sub h3 span {
+    font-weight: 600;
+}
+
+.arrow-back {
+  height: 12px;
+  width: 12px;
+  margin-right: 3px;
+  color: #969696;
+}
+
+.count {
+  display: inline;
+  list-style: none;
+  padding-top: 15px;
+  margin-right: 20px;
+}
+
+.count .active {
+    color:black;
+}
+
+.count li {
+  display: inline;
+  margin-right: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: smaller;
+  color: #969696;
+}
+
+.count li:active,
+.count li:hover,
+.bg h1:hover,
+.view-all:hover,
+.play-wrapper:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.details {
+  width: 65%;
+  height: 100%;
+  background: white;
+}
+
+.prev {
+  background-image: url("/img/preview.jpg");
+  background-size: cover;
+  padding: 40px 60px;
+}
+
+.vid {
+  text-align: center;
+  width: 100%;
+}
+
+.play-wrapper {
+  border-radius: 100%;
+  padding: 5px;
+  background-color: #f6edf2;
+}
+
+.play {
+  width: 20px;
+  height: 20px;
+  margin: -5px auto;
+}
+
+.desc {
+  width: 220px;
+  padding: 0;
+}
+
+.arrow-forward {
+  width: 13px;
+  height: 13px;
+  margin: 0;
+}
+
+.arr-f {
+  margin-top: 8px;
+}
+
+.view-all {
+  font-size: x-small;
+  font-weight: 900;
+  text-align: left;
+  color: #463f44;
+  margin-right: 4px;
+}
+
+.desc p {
+  line-height: 1.5em;
+  margin-top: 0;
+  text-align: left;
+  font-size: large;
+}
+
+.content {
+  margin: 60px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-both {
+  clear: both;
+}
